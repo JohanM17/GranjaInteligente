@@ -1,4 +1,10 @@
 package com.granja.creational.factory;
 
-public class Cerdo {
+import com.granja.model.Animal;
+
+public class Cerdo extends Animal {
+    @Override
+    public void emitirSonido() {
+        System.out.println("🐷 El cerdo hace: ¡Oink oink!");
+    }
 }
