@@ -1,4 +1,5 @@
 package com.granja.behavioral.strategy;
 
-public class EstrategiaAlimentacion {
+public interface EstrategiaAlimentacion {
+    void alimentar();
 }

@@ -1,4 +1,5 @@
 package com.granja.behavioral.state;
 
-public class EstadoAnimal {
+public interface EstadoAnimal {
+    void ejecutarAccion();
 }

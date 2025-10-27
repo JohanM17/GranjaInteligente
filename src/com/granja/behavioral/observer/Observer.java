@@ -1,4 +1,5 @@
 package com.granja.behavioral.observer;
 
-public class Observer {
+public interface Observer {
+    void update(String mensaje);
 }
