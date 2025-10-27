@@ -1,4 +1,5 @@
 package com.granja.behavioral.command;
 
-public class Command {
+public interface Command {
+    void ejecutar();
 }
