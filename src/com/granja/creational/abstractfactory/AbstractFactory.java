@@ -1,4 +1,7 @@
 package com.granja.creational.abstractfactory;
 
-public class AbstractFactory {
+import com.granja.model.Animal;
+
+public interface AbstractFactory {
+    Animal crearAnimal();
 }

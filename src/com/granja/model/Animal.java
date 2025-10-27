@@ -1,4 +1,5 @@
 package com.granja.model;
 
-public class Animal {
+public abstract class Animal {
+    public abstract void emitirSonido();
 }
