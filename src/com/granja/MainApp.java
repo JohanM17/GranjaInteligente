@@ -83,7 +83,7 @@ public class MainApp {
 
         System.out.println("\n>>> [8] Command:");
         Invoker invoker = new Invoker();
-        invoker.setComando(new DispensarAlimentoCommand());
+        invoker.setComando(new DispensarAlimentacionCommand());
         invoker.ejecutarComando();
         invoker.setComando(new EncenderRiegoCommand());
         invoker.ejecutarComando();
@@ -94,7 +94,7 @@ public class MainApp {
         contexto.ejecutarAccion();
         contexto.setEstado(new EstadoEnfermo());
         contexto.ejecutarAccion();
-        contexto.setEstado(new EstadoEnTratamiento());
+        contexto.setEstado(new EstadoTratamiento());
         contexto.ejecutarAccion();
 
         System.out.println("\n=== ✅ SIMULACIÓN COMPLETA FINALIZADA ===");
